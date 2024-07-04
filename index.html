@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(16, 16, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            background-color: rgb(50, 50, 87);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(243, 211, 0);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 1.8rem;
+            font-family: "Oswald", sans-serif;
+        }
+
+        .left span {
+            color: rgb(243, 211, 0);
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+            height: 500px;
+
+        }
+
+        .leftSection {
+            margin-top: 90px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+            margin: 20px 0;
+        }
+
+        .rightSection img {
+
+            width: 106%;
+            height: auto;
+        }
+
+        .leftSection :first-child {
+            color: rgb(243, 211, 0);
+        }
+
+        .firstline {
+            font-size: 2.6rem;
+        }
+
+        .secondline {
+            opacity: 0.5;
+        }
+
+        .leftSection button {
+            background-color: rgb(243, 211, 0);
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .leftSection button:hover {
+            background-color: white;
+            font-size: 0.88rem;
+        }
+
+        .secondsection {
+            background-color: #020617;
+            max-width: 100vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .leftSectionn img {
+            height: 400px;
+            width: 300px;
+            margin: 100px 200px;
+        }
+
+        .secondsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .rightSectionn :first-child {
+            color: white;
+            font-size: 2.6rem;
+        }
+
+        .rightSectionn .about span {
+            color: rgb(243, 211, 0);
+        }
+
+        .firstlinee,
+        .secondlinee {
+            opacity: 0.5;
+            margin: 10px 0;
+        }
+
+        .rightSectionn button {
+            background-color: rgb(243, 211, 0);
+            padding: 12px 25px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        .thirdsection {
+            background-color: #111827;
+            max-width: 100vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .leftt {
+            margin: 80px 200px;
+        }
+
+        .leftt :first-child {
+            font-size: 2.6rem;
+        }
+
+        .leftt :nth-of-type(2) {
+            opacity: 0.5;
+        }
+
+        .leftt span {
+            color: rgb(243, 211, 0);
+        }
+
+        .box1,
+        .box2,
+        .box3 {
+            height: 265px;
+            width: 229px;
+            background-color: #020617;
+            border: 2px solid white;
+            border-radius: 5px;
+            margin: 30px;
+
+        }
+
+        .boxes {
+            display: flex;
+            margin-left: 312px;
+          
+
+        }
+        .boxes img{
+            height: 40px;
+            width: 40px;
+            margin: 30px 95px;
+            color: rgb(243, 211, 0);
+        }
+        .png h3{
+          text-align: center;
+           
+        }
+        .png p{
+            opacity: 0.5;
+            text-align: center;
+            padding: 5px;
+        }
+        .forthSection{
+            background-color: #020617;
+            max-width: 100vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .forthSection div{
+            text-align: center;
+            font-size: 2.6rem;
+            font-family: "poppins";
+            
+            
+        }
+        .forthSection span{
+            color: rgb(243, 211, 0);
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="sticky">
+            <div class="left">
+                About <span> Me.</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Sevice</a></li>
+                    <li><a href="/">Portfolio</a></li>
+                    <li><a href="/">Resume</a></li>
+                    <li><a href="/">Blog</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                <div>
+                    Hello Welcome
+                </div>
+                <div class="firstline">I am Anderson Coper</div>
+                <div class="secondline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci dolore odio
+                    dignissimos quibusdam voluptatibus possimus minima vero laboriosam eius voluptate.</div>
+                <button>Contact Me</button>
+            </div>
+
+            <div class="rightSection">
+                <img src="assets/bg.png" alt="">
+            </div>
+        </section>
+
+        <section class="secondsection">
+            <div class="leftSectionn">
+                <img src="assets/man-png-30098.png" alt="">
+            </div>
+            <div class="rightSectionn">
+                <div class="about">About <span>Me</span></div>
+                <div class="firstlinee">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatibus
+                    voluptatem vel cum, minus fugiat. Nulla, dicta accusamus. Ducimus quaerat excepturi distinctio
+                    consequuntur?</div>
+                <div class="secondlinee">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque error
+                    delectus? Nihil, dicta dolore!</div>
+                <button>Contact us</button>
+
+            </div>
+
+        </section>
+
+        <section class="thirdsection">
+            <div class="leftt">
+                <div>My<span>Service</span></div>
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia perferendis dolorum, quo earum
+                    dignissimos ipsam nobis sequi qui sed, non, quis magnam iste!</div>
+            </div>
+            <div class="boxes">
+
+                <div class="box1 png">
+                    <img src="assets/announcememnt.img.png" alt="">
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi iusto labore  earum iure!</p>
+                </div>
+                <div class="box2 png">
+                    <img src="assets/msg.img.png" alt="">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi iusto labore  earum iure!</p>
+                </div>
+                <div class="box3 png">
+                    <img src="assets/creative.img.png" alt="">
+                    <h3>Graphic Designer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi iusto labore  earum iure!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="forthSection">
+            <div>My <span>Portfolio</span></div>
+
+        </section>
+    </main>
+</body>
+
+</html>
